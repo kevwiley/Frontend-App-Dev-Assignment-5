@@ -1,0 +1,36 @@
+/*Citation: The assignment allows it, so ChatGPT was used for the css. */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.cart-item-info {
+    text-align: left;
+}
+
+.cart-item-info h3 {
+    margin: 0 0 5px 0;
+}
+
+.cart-item-info p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1rem;
+    font-weight: normal;
+    color: green;
+}
+
+.cart-item button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
